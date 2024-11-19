@@ -1,21 +1,21 @@
 :root {
-    --primary-color: #ffdda1;
+    --hover: #ffdda1;
     --secondary-color: #090a0c;
-    --tertiary-color: #121318;
+    --body-color: #121318;
     --accent-color: #2b293c;
     --button-hover-color: #14131c;
     --form-background: #1a1a1a;
     --text-color: #fff;
     --text-dark: #333;
-    --button-color: red;
-    --button-hover: darkred;
+    --button-color: green;
+    --button-hover: darkgreen;
 }
 
 body {
     margin: 0;
     font-family: "Sour Gummy", sans-serif;
     color: var(--text-dark);
-    background-color: var(--tertiary-color);
+    background-color: var(--body-color);
 }
 
 img {
@@ -166,7 +166,8 @@ form {
     border: 1px solid var(--secondary-color);
     border-radius: 8px;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 600px;
+    height: 370px;
     padding: 20px;
 }
 
@@ -176,13 +177,13 @@ form textarea {
     border-radius: 5px;
     font-family: inherit;
     font-size: 16px;
-    margin-bottom: 15px;
-    padding: 10px;
-    width: 92%;
+    margin-bottom: 30px;
+    padding: 25px;
+    width: 91%;
 }
 
 form button {
-    background-color: #FF0000;
+    background-color: var(--button-color);
     border: none;
     border-radius: 5px;
     color: var(--text-color);
