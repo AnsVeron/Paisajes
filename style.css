@@ -7,8 +7,8 @@
     --form-background: #1a1a1a;
     --text-color: #fff;
     --text-dark: #333;
-    --button-color: green;
-    --button-hover: darkgreen;
+    --button-color: red;
+    --button-hover: darkred;
 }
 
 body {
