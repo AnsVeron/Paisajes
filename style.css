@@ -1,3 +1,4 @@
+-- Las variables
 :root {
     --primary-color: #ffdda1;
     --secondary-color: #090a0c;
@@ -182,7 +183,7 @@ form textarea {
 }
 
 form button {
-    background-color: var(--button-color);
+    background-color: #FF0000;
     border: none;
     border-radius: 5px;
     color: var(--text-color);
